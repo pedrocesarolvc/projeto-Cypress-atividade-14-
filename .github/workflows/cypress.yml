@@ -1,0 +1,46 @@
+name: Testes Cypress
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cypress:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Testes funcionais (modulos 01 a 05)
+        id: funcionais
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          rm -rf evidencias && mkdir -p evidencias
+          npx cypress run --spec "cypress/e2e/{navegacao,catalogo,carrinho,formularios,responsividade}/*.cy.js" 2>&1 | tee evidencias/execucao.log
+      - name: Testes que reproduzem defeitos (falha esperada)
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          npx cypress run --spec "cypress/e2e/defeitos/*.cy.js" 2>&1 | tee evidencias/execucao-defeitos.log
+      - name: Salvar evidencias no repositorio
+        if: always()
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add -f evidencias
+          git commit -m "evidencias: resultado da execucao" || echo "nada a commitar"
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: evidencias
+          path: evidencias
+      - name: Falhar se algum teste funcional foi reprovado
+        if: steps.funcionais.outcome == 'failure'
+        run: exit 1

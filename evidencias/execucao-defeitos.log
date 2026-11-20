@@ -1,0 +1,102 @@
+
+DevTools listening on ws://127.0.0.1:37121/devtools/browser/f4764b77-6746-40a7-ade8-836e4e21bfe6
+
+tput: No value for $TERM and no -T specified
+[90m====================================================================================================[39m
+
+[0m  ([4m[1mRun Starting[22m[24m)[0m
+
+[90m  ┌[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┐[39m
+[90m  │[39m [90mCypress:[39m        13.17.0                                                                        [90m│[39m
+[90m  │[39m [90mBrowser:[39m        Electron 118 [90m(headless)[39m                                                        [90m│[39m
+[90m  │[39m [90mNode Version:[39m   [0mv20.20.2 [90m(/opt/hostedtoolcache/node/20.20.2/x64/bin/node)[39m[0m                      [90m│[39m
+[90m  │[39m [90mSpecs:[39m          [0m1 found (defeitos.cy.js)[0m                                                       [90m│[39m
+[90m  │[39m [90mSearched:[39m       [0mcypress/e2e/defeitos/*.cy.js[0m                                                   [90m│[39m
+[90m  └[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┘[39m
+
+
+[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m
+                                                                                                    
+  Running:  [90mdefeitos.cy.js[39m                                                                  [90m(1 of 1)[39m
+
+[0m[0m
+[0m  Defeitos identificados na aplicação[0m
+    [33m(Attempt 1 of 2)[0m D-01 [RF-04] somente o item da seção atual deve ficar destacado no menu principal
+  [31m  1) D-01 [RF-04] somente o item da seção atual deve ficar destacado no menu principal[0m
+    [33m(Attempt 1 of 2)[0m D-02 [RF-12] produto sem estoque não deve entrar no carrinho nem sem aviso quando adicionado por URL
+  [31m  2) D-02 [RF-12] produto sem estoque não deve entrar no carrinho nem sem aviso quando adicionado por URL[0m
+
+
+[92m [0m[32m 0 passing[0m[90m (36s)[0m
+[31m  2 failing[0m
+
+[0m  1) Defeitos identificados na aplicação
+       D-01 [RF-04] somente o item da seção atual deve ficar destacado no menu principal:
+[0m[31m     AssertionError: Timed out retrying after 10000ms: expected '<a.active.menu_home>' not to have class 'active'[0m[90m
+      at Context.eval (webpack://cypress-automation-test-store/./cypress/e2e/defeitos/defeitos.cy.js:11:42)
+[0m
+[0m  2) Defeitos identificados na aplicação
+       D-02 [RF-12] produto sem estoque não deve entrar no carrinho nem sem aviso quando adicionado por URL:
+[0m[31m     AssertionError: item sem estoque aceito sem nenhum aviso: expected false to equal true[0m[90m
+      at Context.eval (webpack://cypress-automation-test-store/./cypress/e2e/defeitos/defeitos.cy.js:24:85)
+[0m
+
+
+
+[31m  ([4m[1mResults[22m[24m)[39m
+
+[90m  ┌[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┐[39m
+[90m  │[39m [90mTests:[39m        [31m2[39m                                                                                [90m│[39m
+[90m  │[39m [90mPassing:[39m      [31m0[39m                                                                                [90m│[39m
+[90m  │[39m [90mFailing:[39m      [31m2[39m                                                                                [90m│[39m
+[90m  │[39m [90mPending:[39m      [31m0[39m                                                                                [90m│[39m
+[90m  │[39m [90mSkipped:[39m      [31m0[39m                                                                                [90m│[39m
+[90m  │[39m [90mScreenshots:[39m  [31m8[39m                                                                                [90m│[39m
+[90m  │[39m [90mVideo:[39m        [31mtrue[39m                                                                             [90m│[39m
+[90m  │[39m [90mDuration:[39m     [31m35 seconds[39m                                                                       [90m│[39m
+[90m  │[39m [90mSpec Ran:[39m     [31m[31mdefeitos.cy.js[31m[39m                                                                   [90m│[39m
+[90m  └[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┘[39m
+
+
+[33m  ([4m[1mScreenshots[22m[24m)[39m
+
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/defeito[0m    [90m[90m(1280x2012)[90m[39m
+[90m [39m    [0ms.cy.js/D-01-menu-com-dois-itens-destacados.png[0m                                                
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/defeito[0m     [90m[90m(1280x720)[90m[39m
+[90m [39m    [0ms.cy.js/Defeitos identificados na aplicação -- D-01 [RF-04] somente o item da se[0m               
+[90m [39m    [0mção atual deve ficar destacado no menu principal (failed).png[0m                                  
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/defeito[0m    [90m[90m(1280x2012)[90m[39m
+[90m [39m    [0ms.cy.js/D-01-menu-com-dois-itens-destacados (attempt 2).png[0m                                    
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/defeito[0m     [90m[90m(1280x720)[90m[39m
+[90m [39m    [0ms.cy.js/Defeitos identificados na aplicação -- D-01 [RF-04] somente o item da se[0m               
+[90m [39m    [0mção atual deve ficar destacado no menu principal (failed) (attempt 2).png[0m                      
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/defeito[0m    [90m[90m(1280x1458)[90m[39m
+[90m [39m    [0ms.cy.js/D-02-produto-sem-estoque-no-carrinho.png[0m                                               
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/defeito[0m     [90m[90m(1280x720)[90m[39m
+[90m [39m    [0ms.cy.js/Defeitos identificados na aplicação -- D-02 [RF-12] produto sem estoque [0m               
+[90m [39m    [0mnão deve entrar no carrinho nem sem aviso quando adicionado por URL (failed).png[0m               
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/defeito[0m    [90m[90m(1280x1458)[90m[39m
+[90m [39m    [0ms.cy.js/D-02-produto-sem-estoque-no-carrinho (attempt 2).png[0m                                   
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/defeito[0m     [90m[90m(1280x720)[90m[39m
+[90m [39m    [0ms.cy.js/Defeitos identificados na aplicação -- D-02 [RF-12] produto sem estoque [0m               
+[90m [39m    [0mnão deve entrar no carrinho nem sem aviso quando adicionado por URL (failed) (at[0m               
+[90m [39m    [0mtempt 2).png[0m                                                                                   
+
+
+[36m  ([4m[1mVideo[22m[24m)[39m
+
+  -  Video output: [36m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/videos/defeitos.cy.js.mp4[39m
+
+
+[90m====================================================================================================[39m
+
+tput: No value for $TERM and no -T specified
+[0m  ([4m[1mRun Finished[22m[24m)[0m
+
+
+[90m   [39m    [90mSpec[39m                                              [90mTests[39m  [90mPassing[39m  [90mFailing[39m  [90mPending[39m  [90mSkipped[39m [90m [39m
+[90m  ┌[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┐[39m
+[90m  │[39m [31m✖[39m  [0mdefeitos.cy.js[0m                           [90m00:35[39m        [0m2[0m        [90m-[39m        [31m2[39m        [90m-[39m        [90m-[39m [90m│[39m
+[90m  └[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┘[39m
+[90m   [39m [31m✖[39m  [31m1 of 1 failed (100%)[39m                     [90m00:35[39m        [0m2[0m        [90m-[39m        [31m2[39m        [90m-[39m        [90m-[39m [90m [39m
+

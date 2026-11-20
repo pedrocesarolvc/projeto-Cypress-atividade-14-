@@ -1,0 +1,14 @@
+{
+  "name": "cypress-automation-test-store",
+  "version": "1.0.0",
+  "description": "Suíte de testes de interface com Cypress para o Automation Test Store",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run",
+    "test:funcionais": "cypress run --spec \"cypress/e2e/{navegacao,catalogo,carrinho,formularios,responsividade}/*.cy.js\"",
+    "test:defeitos": "cypress run --spec \"cypress/e2e/defeitos/*.cy.js\""
+  },
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  }
+}

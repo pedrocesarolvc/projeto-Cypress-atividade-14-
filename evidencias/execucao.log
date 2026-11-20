@@ -1,0 +1,283 @@
+It looks like this is your first time using Cypress: 13.17.0
+
+[STARTED] Task without title.
+[SUCCESS] Task without title.
+
+Opening Cypress...
+
+DevTools listening on ws://127.0.0.1:36749/devtools/browser/f9603749-7784-42e2-a3fb-b83831766793
+
+tput: No value for $TERM and no -T specified
+[90m====================================================================================================[39m
+
+[0m  ([4m[1mRun Starting[22m[24m)[0m
+
+[90m  ┌[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┐[39m
+[90m  │[39m [90mCypress:[39m        13.17.0                                                                        [90m│[39m
+[90m  │[39m [90mBrowser:[39m        Electron 118 [90m(headless)[39m                                                        [90m│[39m
+[90m  │[39m [90mNode Version:[39m   [0mv20.20.2 [90m(/opt/hostedtoolcache/node/20.20.2/x64/bin/node)[39m[0m                      [90m│[39m
+[90m  │[39m [90mSpecs:[39m          [0m5 found (catalogo/catalogo.cy.js, carrinho/carrinho.cy.js, navegacao/navegacao[0m [90m│[39m
+[90m  │[39m                 [0m.cy.js, formularios/formularios.cy.js, responsividade/responsividade.cy.js)[0m    [90m│[39m
+[90m  │[39m [90mSearched:[39m       [0mcypress/e2e/{navegacao,catalogo,carrinho,formularios,responsividade}/*.cy.js[0m   [90m│[39m
+[90m  └[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┘[39m
+
+
+[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m
+                                                                                                    
+  Running:  [90mcatalogo/catalogo.cy.js[39m                                                         [90m(1 of 5)[39m
+
+[0m[0m
+[0m  Módulo 02 - Catálogo e apresentação de produtos[0m
+  [32m  ✓[0m[90m RF-05 [positivo] listagem exibe nome, imagem e preço de cada produto[0m[90m (5211ms)[0m
+  [32m  ✓[0m[90m RF-06 [positivo] navega da listagem para os detalhes do produto e volta[0m[90m (4574ms)[0m
+  [32m  ✓[0m[90m RF-07 [positivo] busca por produto existente retorna apenas resultados correspondentes[0m[90m (5065ms)[0m
+  [32m  ✓[0m[90m RF-07 [negativo] busca por produto inexistente exibe mensagem informativa[0m[90m (4151ms)[0m
+  [32m  ✓[0m[90m RF-08 [consistência] nome e preço do produto em promoção são iguais na listagem, nos detalhes e no carrinho[0m[90m (7036ms)[0m
+
+
+[92m [0m[32m 5 passing[0m[90m (26s)[0m
+
+
+[32m  ([4m[1mResults[22m[24m)[39m
+
+[90m  ┌[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┐[39m
+[90m  │[39m [90mTests:[39m        [32m5[39m                                                                                [90m│[39m
+[90m  │[39m [90mPassing:[39m      [32m5[39m                                                                                [90m│[39m
+[90m  │[39m [90mFailing:[39m      [32m0[39m                                                                                [90m│[39m
+[90m  │[39m [90mPending:[39m      [32m0[39m                                                                                [90m│[39m
+[90m  │[39m [90mSkipped:[39m      [32m0[39m                                                                                [90m│[39m
+[90m  │[39m [90mScreenshots:[39m  [32m5[39m                                                                                [90m│[39m
+[90m  │[39m [90mVideo:[39m        [32mtrue[39m                                                                             [90m│[39m
+[90m  │[39m [90mDuration:[39m     [32m26 seconds[39m                                                                       [90m│[39m
+[90m  │[39m [90mSpec Ran:[39m     [32m[32mcatalogo/catalogo.cy.js[32m[39m                                                          [90m│[39m
+[90m  └[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┘[39m
+
+
+[33m  ([4m[1mScreenshots[22m[24m)[39m
+
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/catalog[0m    [90m[90m(1280x2012)[90m[39m
+[90m [39m    [0mo/catalogo.cy.js/RF-05-listagem-produtos.png[0m                                                   
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/catalog[0m    [90m[90m(1280x1492)[90m[39m
+[90m [39m    [0mo/catalogo.cy.js/RF-06-detalhes-produto.png[0m                                                    
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/catalog[0m    [90m[90m(1280x1537)[90m[39m
+[90m [39m    [0mo/catalogo.cy.js/RF-07-busca-existente.png[0m                                                     
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/catalog[0m     [90m[90m(1280x998)[90m[39m
+[90m [39m    [0mo/catalogo.cy.js/RF-07-busca-inexistente.png[0m                                                   
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/catalog[0m    [90m[90m(1280x1520)[90m[39m
+[90m [39m    [0mo/catalogo.cy.js/RF-08-consistencia-informacoes.png[0m                                            
+
+
+[36m  ([4m[1mVideo[22m[24m)[39m
+
+  -  Video output: [36m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/videos/catalogo/catalogo.cy.js.mp4[39m
+
+
+[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m
+                                                                                                    
+  Running:  [90mcarrinho/carrinho.cy.js[39m                                                         [90m(2 of 5)[39m
+
+[0m[0m
+[0m  Módulo 03 - Gerenciamento do carrinho[0m
+  [32m  ✓[0m[90m RF-09 [positivo] adiciona produto pela página de detalhes e atualiza o carrinho[0m[90m (5142ms)[0m
+  [32m  ✓[0m[90m RF-09 [positivo] adiciona produto direto da listagem da página inicial[0m[90m (4317ms)[0m
+  [32m  ✓[0m[90m RF-10 [positivo] atualiza a quantidade de um produto no carrinho[0m[90m (4642ms)[0m
+  [32m  ✓[0m[90m RF-11 [consistência] recalcula subtotais e total após alterar a quantidade[0m[90m (9301ms)[0m
+  [32m  ✓[0m[90m RF-12 [positivo] remove produto e exibe a mensagem de carrinho vazio[0m[90m (4416ms)[0m
+  [32m  ✓[0m[90m RF-12 [negativo] produto sem estoque não oferece botão de adicionar ao carrinho[0m[90m (2769ms)[0m
+
+
+[92m [0m[32m 6 passing[0m[90m (31s)[0m
+
+
+[32m  ([4m[1mResults[22m[24m)[39m
+
+[90m  ┌[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┐[39m
+[90m  │[39m [90mTests:[39m        [32m6[39m                                                                                [90m│[39m
+[90m  │[39m [90mPassing:[39m      [32m6[39m                                                                                [90m│[39m
+[90m  │[39m [90mFailing:[39m      [32m0[39m                                                                                [90m│[39m
+[90m  │[39m [90mPending:[39m      [32m0[39m                                                                                [90m│[39m
+[90m  │[39m [90mSkipped:[39m      [32m0[39m                                                                                [90m│[39m
+[90m  │[39m [90mScreenshots:[39m  [32m5[39m                                                                                [90m│[39m
+[90m  │[39m [90mVideo:[39m        [32mtrue[39m                                                                             [90m│[39m
+[90m  │[39m [90mDuration:[39m     [32m30 seconds[39m                                                                       [90m│[39m
+[90m  │[39m [90mSpec Ran:[39m     [32m[32mcarrinho/carrinho.cy.js[32m[39m                                                          [90m│[39m
+[90m  └[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┘[39m
+
+
+[33m  ([4m[1mScreenshots[22m[24m)[39m
+
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/carrinh[0m    [90m[90m(1280x1458)[90m[39m
+[90m [39m    [0mo/carrinho.cy.js/RF-09-produto-adicionado.png[0m                                                  
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/carrinh[0m    [90m[90m(1280x1520)[90m[39m
+[90m [39m    [0mo/carrinho.cy.js/RF-10-quantidade-atualizada.png[0m                                               
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/carrinh[0m    [90m[90m(1280x1612)[90m[39m
+[90m [39m    [0mo/carrinho.cy.js/RF-11-recalculo-total.png[0m                                                     
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/carrinh[0m     [90m[90m(1280x937)[90m[39m
+[90m [39m    [0mo/carrinho.cy.js/RF-12-carrinho-vazio.png[0m                                                      
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/carrinh[0m    [90m[90m(1280x1978)[90m[39m
+[90m [39m    [0mo/carrinho.cy.js/RF-12-produto-sem-estoque.png[0m                                                 
+
+
+[36m  ([4m[1mVideo[22m[24m)[39m
+
+  -  Video output: [36m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/videos/carrinho/carrinho.cy.js.mp4[39m
+
+
+[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m
+                                                                                                    
+  Running:  [90mnavegacao/navegacao.cy.js[39m                                                       [90m(3 of 5)[39m
+
+[0m[0m
+[0m  Módulo 01 - Navegação e organização da interface[0m
+  [32m  ✓[0m[90m RF-01 [positivo] navega da página inicial para a categoria Skincare pelo menu[0m[90m (6751ms)[0m
+  [32m  ✓[0m[90m RF-02 [positivo] categoria exibe produtos e subcategorias correspondentes[0m[90m (3349ms)[0m
+  [32m  ✓[0m[90m RF-03 [positivo] retorna à página inicial pelo breadcrumb e pelo logotipo[0m[90m (6399ms)[0m
+  [32m  ✓[0m[90m RF-03 [positivo] retorna à página anterior pelo histórico do navegador[0m[90m (3393ms)[0m
+  [32m  ✓[0m[90m RF-04 [estado da interface] item de menu da categoria atual recebe o estado 'current'[0m[90m (4508ms)[0m
+  [32m  ✓[0m[90m RF-04 [estado da interface] ordenar por nome altera a ordem dos produtos listados[0m[90m (1848ms)[0m
+
+
+[92m [0m[32m 6 passing[0m[90m (27s)[0m
+
+
+[32m  ([4m[1mResults[22m[24m)[39m
+
+[90m  ┌[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┐[39m
+[90m  │[39m [90mTests:[39m        [32m6[39m                                                                                [90m│[39m
+[90m  │[39m [90mPassing:[39m      [32m6[39m                                                                                [90m│[39m
+[90m  │[39m [90mFailing:[39m      [32m0[39m                                                                                [90m│[39m
+[90m  │[39m [90mPending:[39m      [32m0[39m                                                                                [90m│[39m
+[90m  │[39m [90mSkipped:[39m      [32m0[39m                                                                                [90m│[39m
+[90m  │[39m [90mScreenshots:[39m  [32m2[39m                                                                                [90m│[39m
+[90m  │[39m [90mVideo:[39m        [32mtrue[39m                                                                             [90m│[39m
+[90m  │[39m [90mDuration:[39m     [32m26 seconds[39m                                                                       [90m│[39m
+[90m  │[39m [90mSpec Ran:[39m     [32m[32mnavegacao/navegacao.cy.js[32m[39m                                                        [90m│[39m
+[90m  └[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┘[39m
+
+
+[33m  ([4m[1mScreenshots[22m[24m)[39m
+
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/navegac[0m    [90m[90m(1280x2012)[90m[39m
+[90m [39m    [0mao/navegacao.cy.js/RF-01-navegacao-categoria.png[0m                                               
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/navegac[0m    [90m[90m(1280x1412)[90m[39m
+[90m [39m    [0mao/navegacao.cy.js/RF-02-subcategoria-shoes.png[0m                                                
+
+
+[36m  ([4m[1mVideo[22m[24m)[39m
+
+  -  Video output: [36m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/videos/navegacao/navegacao.cy.js.mp4[39m
+
+
+[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m
+                                                                                                    
+  Running:  [90mformularios/formularios.cy.js[39m                                                   [90m(4 of 5)[39m
+
+[0m[0m
+[0m  Módulo 04 - Formulários e validação de interface[0m
+  [32m  ✓[0m[90m RF-13 [negativo] formulário de contato vazio informa os campos obrigatórios[0m[90m (4346ms)[0m
+[2837:1120/144003.531691:ERROR:display.cc(298)] Frame latency is negative: -0.331 ms
+  [32m  ✓[0m[90m RF-13 [negativo] e-mail inválido é rejeitado com mensagem de orientação[0m[90m (3945ms)[0m
+  [32m  ✓[0m[90m RF-14 [positivo] envio válido exibe a mensagem de confirmação[0m[90m (5022ms)[0m
+  [32m  ✓[0m[90m RF-14 [negativo] login com credenciais inválidas exibe mensagem de erro[0m[90m (3614ms)[0m
+
+
+[92m [0m[32m 4 passing[0m[90m (17s)[0m
+
+
+[32m  ([4m[1mResults[22m[24m)[39m
+
+[90m  ┌[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┐[39m
+[90m  │[39m [90mTests:[39m        [32m4[39m                                                                                [90m│[39m
+[90m  │[39m [90mPassing:[39m      [32m4[39m                                                                                [90m│[39m
+[90m  │[39m [90mFailing:[39m      [32m0[39m                                                                                [90m│[39m
+[90m  │[39m [90mPending:[39m      [32m0[39m                                                                                [90m│[39m
+[90m  │[39m [90mSkipped:[39m      [32m0[39m                                                                                [90m│[39m
+[90m  │[39m [90mScreenshots:[39m  [32m4[39m                                                                                [90m│[39m
+[90m  │[39m [90mVideo:[39m        [32mtrue[39m                                                                             [90m│[39m
+[90m  │[39m [90mDuration:[39m     [32m17 seconds[39m                                                                       [90m│[39m
+[90m  │[39m [90mSpec Ran:[39m     [32m[32mformularios/formularios.cy.js[32m[39m                                                    [90m│[39m
+[90m  └[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┘[39m
+
+
+[33m  ([4m[1mScreenshots[22m[24m)[39m
+
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/formula[0m    [90m[90m(1280x1496)[90m[39m
+[90m [39m    [0mrios/formularios.cy.js/RF-13-contato-campos-obrigatorios.png[0m                                   
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/formula[0m    [90m[90m(1280x1449)[90m[39m
+[90m [39m    [0mrios/formularios.cy.js/RF-13-contato-email-invalido.png[0m                                        
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/formula[0m     [90m[90m(1280x957)[90m[39m
+[90m [39m    [0mrios/formularios.cy.js/RF-14-contato-confirmacao.png[0m                                           
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/formula[0m    [90m[90m(1280x1219)[90m[39m
+[90m [39m    [0mrios/formularios.cy.js/RF-14-login-invalido.png[0m                                                
+
+
+[36m  ([4m[1mVideo[22m[24m)[39m
+
+  -  Video output: [36m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/videos/formularios/formularios.cy.js.mp4[39m
+
+
+[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m
+                                                                                                    
+  Running:  [90mresponsividade/responsividade.cy.js[39m                                             [90m(5 of 5)[39m
+
+[0m[0m
+[0m  Módulo 05 - Responsividade e experiência de navegação[0m
+  [32m  ✓[0m[90m RF-15 [responsividade] elementos principais de navegação estão disponíveis no desktop[0m[90m (6555ms)[0m
+[2837:1120/144024.480334:ERROR:display.cc(298)] Frame latency is negative: -0.13 ms
+  [32m  ✓[0m[90m RF-15 [responsividade] elementos principais de navegação estão disponíveis no mobile[0m[90m (4776ms)[0m
+  [32m  ✓[0m[90m RF-16 [responsividade] localiza produto pela busca e usa o carrinho em resolução mobile[0m[90m (7908ms)[0m
+
+
+[92m [0m[32m 3 passing[0m[90m (19s)[0m
+
+
+[32m  ([4m[1mResults[22m[24m)[39m
+
+[90m  ┌[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┐[39m
+[90m  │[39m [90mTests:[39m        [32m3[39m                                                                                [90m│[39m
+[90m  │[39m [90mPassing:[39m      [32m3[39m                                                                                [90m│[39m
+[90m  │[39m [90mFailing:[39m      [32m0[39m                                                                                [90m│[39m
+[90m  │[39m [90mPending:[39m      [32m0[39m                                                                                [90m│[39m
+[90m  │[39m [90mSkipped:[39m      [32m0[39m                                                                                [90m│[39m
+[90m  │[39m [90mScreenshots:[39m  [32m3[39m                                                                                [90m│[39m
+[90m  │[39m [90mVideo:[39m        [32mtrue[39m                                                                             [90m│[39m
+[90m  │[39m [90mDuration:[39m     [32m19 seconds[39m                                                                       [90m│[39m
+[90m  │[39m [90mSpec Ran:[39m     [32m[32mresponsividade/responsividade.cy.js[32m[39m                                              [90m│[39m
+[90m  └[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┘[39m
+
+
+[33m  ([4m[1mScreenshots[22m[24m)[39m
+
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/respons[0m    [90m[90m(1280x3432)[90m[39m
+[90m [39m    [0mividade/responsividade.cy.js/RF-15-navegacao-desktop.png[0m                                       
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/respons[0m     [90m[90m(375x8710)[90m[39m
+[90m [39m    [0mividade/responsividade.cy.js/RF-15-navegacao-mobile.png[0m                                        
+[90m [39m -  [0m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/screenshots/respons[0m     [90m[90m(375x2576)[90m[39m
+[90m [39m    [0mividade/responsividade.cy.js/RF-16-carrinho-mobile.png[0m                                         
+
+
+[36m  ([4m[1mVideo[22m[24m)[39m
+
+  -  Video output: [36m/home/runner/work/Projeto-Cypress/Projeto-Cypress/evidencias/videos/responsividade/responsividade.cy.js.mp4[39m
+
+
+tput: No value for $TERM and no -T specified
+[90m====================================================================================================[39m
+
+[0m  ([4m[1mRun Finished[22m[24m)[0m
+
+
+[90m   [39m    [90mSpec[39m                                              [90mTests[39m  [90mPassing[39m  [90mFailing[39m  [90mPending[39m  [90mSkipped[39m [90m [39m
+[90m  ┌[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┐[39m
+[90m  │[39m [32m✔[39m  [0mcatalogo/catalogo.cy.js[0m                  [90m00:26[39m        [0m5[0m        [32m5[39m        [90m-[39m        [90m-[39m        [90m-[39m [90m│[39m
+[90m  ├[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┤[39m
+[90m  │[39m [32m✔[39m  [0mcarrinho/carrinho.cy.js[0m                  [90m00:30[39m        [0m6[0m        [32m6[39m        [90m-[39m        [90m-[39m        [90m-[39m [90m│[39m
+[90m  ├[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┤[39m
+[90m  │[39m [32m✔[39m  [0mnavegacao/navegacao.cy.js[0m                [90m00:26[39m        [0m6[0m        [32m6[39m        [90m-[39m        [90m-[39m        [90m-[39m [90m│[39m
+[90m  ├[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┤[39m
+[90m  │[39m [32m✔[39m  [0mformularios/formularios.cy.js[0m            [90m00:17[39m        [0m4[0m        [32m4[39m        [90m-[39m        [90m-[39m        [90m-[39m [90m│[39m
+[90m  ├[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┤[39m
+[90m  │[39m [32m✔[39m  [0mresponsividade/responsividade.cy.js[0m      [90m00:19[39m        [0m3[0m        [32m3[39m        [90m-[39m        [90m-[39m        [90m-[39m [90m│[39m
+[90m  └[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┘[39m
+[90m   [39m [32m✔[39m  [32mAll specs passed![39m                        [90m02:00[39m       [0m24[0m       [32m24[39m        [90m-[39m        [90m-[39m        [90m-[39m [90m [39m
+
